@@ -5,8 +5,7 @@ import Soy from 'metal-soy';
 import templates from './LexiconIcon.soy';
 
 /**
- * Implementation of the Lexicon Icon Piece
- *
+ * Implementation of the Lexicon Icon.
  * @see  {@link http://liferay.github.io/lexicon/content/icons-lexicon/|Lexicon Definition}
  */
 class LexiconIcon extends Component {
@@ -14,14 +13,12 @@ class LexiconIcon extends Component {
 
 /**
  * State definition.
- * @ignore
  * @static
  * @type {!Object}
  */
 LexiconIcon.STATE = {
 	/**
-	 * Path to the spritemap file with the icons
-	 * @default undefined
+	 * Path to the spritemap file with the icons.
 	 * @instance
 	 * @memberof LexiconIcon
 	 * @type {string}
@@ -31,8 +28,7 @@ LexiconIcon.STATE = {
 	},
 
 	/**
-	 * Id of the icon to show from the list of available icons
-	 * @default undefined
+	 * Id of the icon to show from the list of available icons.
 	 * @instance
 	 * @memberof LexiconIcon
 	 * @type {string}
@@ -42,7 +38,6 @@ LexiconIcon.STATE = {
 	}
 };
 
-// Register component
 Soy.register(LexiconIcon, templates);
 
 export default LexiconIcon;
