@@ -19,7 +19,7 @@ describe('LexiconIcon', function() {
 			}
 		);
 
-		assert.strictEqual(icon.element.outerHTML, __html__['test/fixture/testDefaultLexiconIcon.html']);
+		assert.strictEqual(icon.element.outerHTML, __html__['test/fixture/testDefaultLexiconIcon.html'].trim());
 	});
 
 	it('should append elementClasses to the outer element', function() {
@@ -31,6 +31,6 @@ describe('LexiconIcon', function() {
 			}
 		);
 
-		assert.strictEqual(icon.element.outerHTML, __html__['test/fixture/testElementClassesLexiconIcon.html']);
+		assert.strictEqual(icon.element.outerHTML, __html__['test/fixture/testElementClassesLexiconIcon.html'].trim());
 	});
 });
